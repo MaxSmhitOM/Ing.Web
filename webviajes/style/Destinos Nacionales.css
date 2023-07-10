@@ -80,13 +80,13 @@ header{
     display: block;
 }
 .catalogo-vn {
-    width: 43%;
-    background: #00c9bd;
-    height: 300px;
-    margin: 20px;
-    margin-top: 50px;
-    overflow: hidden;
+    width: 50%;
+    background: #1b6d70;
+    padding: 30px;
+    height: 360px;
     margin: auto;
+    overflow: hidden;
+    color: white;
 }
 .catalogo-vi {
     width: 43%;
@@ -98,16 +98,24 @@ header{
     margin: auto;
 }
 .catalogo-o {
-    width: 15%;
-    background: #00c9bd;
-    height: 300px;
+    width: 20%;
+    background: #1b6d70;
+    padding: 30px;
+    height: 360px;
     margin: 20px;
     margin-top: 50px;
     overflow: hidden;
     margin: auto;
+    color: white;
 }
 .item {
     width: 250px;
     float: left;
-    margin: 10px;
+    margin: 23px;
+}
+.catalogo-vn h1{
+    margin: auto;
+}
+.item h2{
+    margin-top: 9px;
 }
