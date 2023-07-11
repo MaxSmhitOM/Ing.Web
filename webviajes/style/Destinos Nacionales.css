@@ -6,12 +6,15 @@
     font-family: "Open Sans", sans-serif;
 }
 body{
-    background: #34a0a4;
+    background: white;
+    height: 100vh;
+    width: 100%;
+    position: relative;
 }
 header{
     width: 100%;
     height: 90px;
-    background-color: rgba(244,241,234,255);
+    background-color: green;
 }
 .interior{
     max-width: 100%;
@@ -38,18 +41,20 @@ header{
 .navegacion ul{
     list-style: none;
     padding: 0 10px;
+    
 }
 .navegacion ul li{
     display: inline-block;
     position: relative;
     transition: .3s linear;
     z-index: 1000;
+    
 }
 .navegacion ul li:hover{
     transform: scale(1.1);
 }
 .navegacion ul li a{
-    color: #000000;
+    color: white;
     text-align: center;
     text-transform: uppercase;
     font-size: 14px;
@@ -81,7 +86,7 @@ header{
 }
 .catalogo-vn {
     width: 50%;
-    background: #1b6d70;
+    background: rgb(0, 104, 0);
     padding: 30px;
     height: 360px;
     margin: auto;
@@ -99,7 +104,7 @@ header{
 }
 .catalogo-o {
     width: 20%;
-    background: #1b6d70;
+    background: rgb(0, 104, 0);
     padding: 30px;
     height: 360px;
     margin: 20px;
@@ -118,4 +123,76 @@ header{
 }
 .item h2{
     margin-top: 9px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+/*:::::Pie de Pagina*/
+.pie-pagina{
+    width: 100%;
+    background-color: green;
+}
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:50px;
+    padding: 45px 0px;
+}
+.pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pie-pagina .grupo-1 .box figure img{
+    width: 250px;
+}
+.pie-pagina .grupo-1 .box h2{
+    color: white;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+.pie-pagina .grupo-1 .box p{
+    color: white;
+    margin-bottom: 10px;
+}
+.pie-pagina .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    margin-right: 10px;
+    background-color: rgb(0, 104, 0);
+    text-align: center;
+    transition: all 300ms ease;
+}
+.pie-pagina .grupo-1 .red-social a:hover{
+    color: aqua;
+}
+.pie-pagina .grupo-2{
+    background-color: rgb(0, 104, 0);
+    padding: 15px 10px;
+    text-align: center;
+    color: white;
+}
+.pie-pagina .grupo-2 small{
+    font-size: 15px;
+}
+@media screen and (max-width:800px){
+    .pie-pagina .grupo-1{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap:30px;
+        padding: 35px 0px;
+    }
 }
