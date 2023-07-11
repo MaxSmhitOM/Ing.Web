@@ -76,7 +76,7 @@
     </style>
 </head>
 <?php
-   if(isset($_GET['error'])){
+if(isset($_GET['error'])){
     $error = $_GET['error'];
     if($error == "incorrecto"){
         echo "<h2>El usuario o contraseña son incorrectos</h2>";
@@ -84,7 +84,7 @@
     if($error == "vacio"){
         echo "<h2>Los datos enviados estan vacios</h2>";
     }
-   } 
+} 
 ?>
 <body>
     <section class="form-register">
