@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuzco - Detalles del destino</title>
+    <link rel="stylesheet" href="../style/stylo.css">
+    <link rel="stylesheet" href="../style/destinos.css">
+</head>
+<body>
+        <header>
+            <!-- Código del encabezado -->
+            <div class="interior">
+                <a href="" class="logo" target="blank"><img src="../img/logo2.png" alt="Logo"></a>
+                  <nav class="navegacion">
+                      <ul>
+                          <li><a href="../Indec.html" target="">Inicio</a></li>
+                          <!--<li><a href="" target="">Acerca de</a></li>-->
+                              <li class="submenu">
+                                  <a href="../Destinos Nacionales.html" target="">DESTINOS</a>
+                                  <!--<ul class="hijos">
+                                  <li><a href="">Paracas</a></li>
+                                  <li><a href="">Tuquillo</a></li>
+                                  <li><a href="">Huaral</a></li>
+                                  <li><a href="">Lunahuana</a></li>
+                                  <li><a href="">La Mina</a></li>
+                                  </ul>--><!---->
+                              </li>
+                          <li><a href="" target="">Contacto</a></li>
+                          <li><a href="" target="">Login</a></li>
+                          <li><a href="reclamo.html" target="">Reclamos</a></li>
+                          <li><a href="sugerencias.html" target="">Sugerencias</a></li>
+                      </ul>
+                  </nav>
+              </div>
+        </header>
+    
+    <section>
+        <h1>Cuzco</h1>
+        <img src="../destinos/nacionales/Cuzco.jpg" alt="Cuzco">
+
+        <p>Descripción detallada del destino Cuzco.</p>
+
+        <form action="procesar_reserva.php" method="POST">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="fecha">Fecha de reserva:</label>
+            <input type="date" id="fecha" name="fecha" required>
+
+            <input type="submit" value="Reservar">
+        </form>
+    </section>
+    
+    <footer>
+        <div class="interior">
+            <div class="footer-columna">
+                <h3>Información de contacto</h3>
+                <p>Teléfono: 123456789</p>
+                <p>Email: info@example.com</p>
+                <p>Dirección: Calle Principal, Ciudad</p>
+            </div>
+            <div class="footer-columna">
+                <h3>Enlaces rápidos</h3>
+                <ul>
+                    <li><a href="Indec.html" target="">Inicio</a></li>
+                    <li><a href="Destinos Nacionales.html" target="">Destinos Nacionales</a></li>
+                    <li><a href="" target="">Contacto</a></li>
+                    <li><a href="" target="">Login</a></li>
+                    <li><a href="reclamo.html" target="">Reclamos</a></li>
+                    <li><a href="sugerencias.html" target="">Sugerencias</a></li>
+                </ul>
+            </div>
+            <div class="footer-columna">
+                <h3>Síguenos en redes sociales</h3>
+                <ul class="redes-sociales">
+                    <li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="#" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="derechos">
+            <p>Todos los derechos reservados &copy; 2023</p>
+        </div>
+    </footer>
+</body>
+</html>
