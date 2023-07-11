@@ -86,7 +86,7 @@ header{
 }
 .catalogo-vn {
     width: 50%;
-    background: rgb(0, 104, 0);
+    background: rgb(50, 168, 50);
     padding: 30px;
     height: 360px;
     margin: auto;
@@ -104,7 +104,7 @@ header{
 }
 .catalogo-o {
     width: 20%;
-    background: rgb(0, 104, 0);
+    background: rgb(50, 168, 50);
     padding: 30px;
     height: 360px;
     margin: 20px;
